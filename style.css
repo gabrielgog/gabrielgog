@@ -22,3 +22,10 @@ h3{
     display: block;
     padding-top: 70px;
 }
+
+#border{
+    display: block;
+    border-width: 20%;
+    color: black;
+    border-style: dashed;
+}
