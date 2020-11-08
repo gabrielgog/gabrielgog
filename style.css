@@ -24,7 +24,6 @@ h3{
 }
 
 #border{
-    display: block;
     border-width: 20%;
     color: black;
     border-style: dashed;
