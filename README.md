@@ -8,3 +8,7 @@ Hi there
 
 ![Anurag's github stats](https://github-readme-stats.vercel.app/api?gabrielgog=anuraghazra&show_icons=true&theme=radical)
 
+
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=gabrielgog)](https://github.com/gabrielgog/github-readme-stats)
+
+
