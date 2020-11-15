@@ -10,21 +10,3 @@ h3{
     text-align: center;
 }
 
-#img:hover{
-    text-align: center;
-    background-color: blue;
-}
-
-
-.email{
-    color: blue;
-    text-align: center;
-    display: block;
-    padding-top: 70px;
-}
-
-#border{
-    border-width: 20%;
-    color: black;
-    border-style: dashed;
-}
