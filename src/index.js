@@ -1,15 +1,20 @@
 import React from "react";
-import ReactDom from "react-dom";
+import ReactDOM from "react-dom";
 
-ReactDom.render(
+ReactDOM.render(
 
   <div>
 <h1>Hello Gabriel</h1>
 
 
+
+
+
   </div>,
 
+document.querySelector("root")
 
 
-  document.getElementById("#root")
+
+
 )
