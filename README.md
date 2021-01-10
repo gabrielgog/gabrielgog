@@ -1,7 +1,5 @@
 ## Hi there 👋 
-I'm Gabriel Godwin  a JavaScript Engineer that focuses on React Framework. I have a strong interest in design systems, APIs, Data Science and serverless techologies such as AWS and Google cloud
-
-<img style="align: right" src="https://media-exp1.licdn.com/dms/image/C4E03AQFkNWuvJ7G2YQ/profile-displayphoto-shrink_100_100/0?e=1611187200&v=beta&t=k0AftFhPtO83671locM3cuPE66RghZ5eZJ4_Zhk4kmU">
+I"m Gabriel a software Engineer that focuses on JavaScript and the React framework. I have a passion for Design Systems, Data Science and Serverless Technologies like Amazon Web services and the Google Cloud plattform. 
 
 <!--
 **gabrielgog/gabrielgog** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
