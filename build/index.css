@@ -1,4 +1,87 @@
-.body{
+body{
 
-    background-color: blue;
+
+    width: 100%;
+}
+
+
+
+
+.ml-auto .menu{
+    color:#fff;
+}
+
+
+
+
+/* Mobile screen style */
+@media(min-width: 360px){
+
+
+    .logo{
+
+
+        font-family: 'Leckerli One', cursive;
+      color:rgba(218, 208, 208, 0.788) !important;
+ 
+     }
+
+
+    .Nav{    
+        font-size: 1.3rem;
+    
+        background:#1a508b;
+
+
+
+
+    }
+
+
+    .menu{
+        color:rgba(218, 208, 208, 0.788) !important;
+    }
+
+
+    
+    
+
+}
+
+
+
+/* Desktop screen style */
+
+@media(min-width: 760px){
+
+
+    .logo{
+
+
+       font-family: 'Leckerli One', cursive;
+     color:rgba(218, 208, 208, 0.788) !important;
+
+    font-size: 9rem;
+
+    }
+    
+
+
+
+    .Nav{
+
+        padding: 0% 10rem;
+    
+        font-size: 1.3rem;
+    
+        background:#1a508b;
+    }
+
+
+    .menu{
+        color:rgba(218, 208, 208, 0.788) !important;
+    }
+    
+    
+    
 }

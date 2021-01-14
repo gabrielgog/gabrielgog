@@ -1,2 +1,0 @@
-(this.webpackJsonpgabriel=this.webpackJsonpgabriel||[]).push([[0],{4:function(e,n,t){"use strict";t.r(n);var i=t(2),r=(t(1),t(3));t.n(r).a.render(Object(i.jsx)("div",{children:Object(i.jsx)("h1",{children:"Coming Soon"})}),document.getElementById("root"))}},[[4,1,2]]]);
-//# sourceMappingURL=main.f701ecbf.chunk.js.map
