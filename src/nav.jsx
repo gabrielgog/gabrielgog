@@ -7,11 +7,10 @@ function nav(){
 
 
 <Navbar  expand="lg">
-  <Navbar.Brand  className="logo" href="#home">gabrielgog</Navbar.Brand>
+  <Navbar.Brand  className="logo" href="#home">GabrielgoG</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link className="menu" href="#home">Home</Nav.Link>
       <Nav.Link className="menu"  href="#link">Projects</Nav.Link>
       <Nav.Link className="menu"  href="#link">Blog</Nav.Link>
 

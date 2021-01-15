@@ -10,13 +10,11 @@ function body(){
 
 
     <img className="homeimg" src="/gabriel_gog.png"/>
-    <h3 className="heading">Gabriel Godwin </h3>
+    <h1 className="heading">Gabriel Godwin </h1>
 
-    <p className="paragraph">Software Engineer</p>
+    <h3 className="paragraph">Software Engineer</h3>
 
-    <p className="home-about">Gabriel Godwin is a software engineer that focuses on JavaScript and 
-        the React Framework. He has a passion for Design systems, Data Science and 
-        serverless technologies such as Amazon Web services and the Google cloud platform <a href="">....Read More</a>
+    <p className="home-about">Gabriel Godwin is a software engineer that focuses on JavaScript and the React Framework. He has a passion for Design systems, Data Science and     serverless technologies such as Amazon Web services and the Google cloud platform <a href="">....Read More</a>
     </p>
 
 
