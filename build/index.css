@@ -1,268 +1,678 @@
-body{
+body {
+
+  font-family: "Dosis", sans-serif;
+
+  width: 100%;
+
+
+}
+
+.Nav {
+  font-family: "Dosis", sans-serif;
+}
+
+Nav:hover {
+  background: #041527;
+}
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+h3 {
+  font-family: "Nunito", sans-serif;
+}
+
+p {
+  font-family: "Dosis", sans-serif;
+}
+
+.logo {
+  font-family: "Dosis", sans-serif;
+  font-weight: bolder;
+
+  color: rgba(218, 208, 208, 0.788) !important;
+}
+
+#projects {
+  background: #041527;
+  height: 105rem;
+}
+
+#projects h1{
+
+  text-align: center;
+  color: rgba(218, 208, 208, 0.788) ;
+}
+
+/
+.ml-auto .menu {
+  color: #fff;
+}
+
+/* Mobile screen style */
+@media (min-width: 360px) {
+  .Nav {
+    font-size: 1.3rem;
+
+    background: #1a508b;
+    background-position: 0%;
+  }
+
+  .menu {
+    color: rgba(218, 208, 208, 0.788) !important;
+  }
+
+  .body {
+    background-image: url("./back_ground.jpg");
+    height: 30rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125rem;
+  }
+
+  .me {
+    width: 96%;
+
+    background: rgba(12, 6, 6, 0.925);
+
+    margin: 0% 2%;
+
+    position: relative;
+
+    top: 3rem;
+  }
+
+  .homeimg {
+    border-radius: 20rem;
+    width: 45%;
+    padding: 4%;
+    float: left;
+  }
+
+  .heading {
+    color: rgba(218, 208, 208, 0.788);
+
+    font-size: 30px;
+    text-align: center;
+    font-weight: bolder;
+    padding: 5% 2%;
+  }
+
+  .paragraph {
+    color: #1365bd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 140%;
+    padding: 0% 0%;
+  }
+
+  .home-about {
+    color: white;
+    padding: 2%;
+    clear: both;
+  }
+
+  .social {
+    padding: 2% 14%;
+  }
+
+  .social img {
+    width: 23%;
+
+    padding: 4%;
+  }
+
+  #projects div {
+    padding: 1% 2.7% 2.7%;
+  }
+
+  .card {
+    background: rgba(255, 255, 255, 0.582) !important;
+  }
+
+  .btn {
+    background: #1365bd !important;
+  }
+
+  .variant {
+    padding: 0% 5%;
+  }
+
+  /* Footer styles */
+
+
+  .footer{
+
+
+
+
+    background-color: #1a508b;
+
+
+    position: absolute;
+    top: 137rem;
+
+
+    height: 48rem;
+
+    width: 100%;
+
+  }
+.social-link{
+
+  display: none;
+}
+
+
+  
+  .copy{
+    color: rgba(255, 255, 255, 0.637) ;
+
+    font-size: 100%;
+
+    padding: 12%;
+
+    text-align: center;
+
+  }
+  
+
+  #contact .name, .email{
+
+
+    border: 2px solid #1a508b;
+    margin: 3% ;
+
+    background: rgba(255, 255, 255, 0.637) ;
+
+    width: 20rem;
+    height: 2.5rem;
+
+    box-shadow: 3px 5px 20px #041527;
+
+    border-radius: 4px;
+
+    color:black;
+    font: bolder;
+    
+
+  }
+
+  #contact .message{
+
+    background: rgba(255, 255, 255, 0.637) ;
+
+
+    width: 20rem;
+
+    margin: 3% ;
+
+
+    box-shadow: 3px 5px 20px #041527;
+
+    border-radius: 4px;
+
+    color:black;
+    font: bolder;
+
+
+  }
+
+
+  #contact button{
+
+
+    background: #1365bd;
+
+    color: #fff;
+    border-radius: 2px;
+    width: 30%;
+    margin: 3% ;
+
+    box-shadow: 10px solid #fff;
+
+
+
+  }
+
+
+  #contact h1{
+
+    color: rgba(255, 255, 255, 0.644);
+
+    text-align: center;
+  }
+
+  .social-l img{
+
+    width: 20%;
+    padding: 9% 5% ;
+
+    position: relative;
+
+    left: 2rem;
+
+  }
+
+
+  .about-body{
+
+
+    background-image: url("/about_picture.jpg");
+
+    background-position: top;
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 10rem;
+
+  }
+
+
+  .about-body h3{
+
+    text-align: right;
+
+
+    color: #fff;
+
+
+    font-size: 2rem;
+
+    padding: 3% 3%;
+
+    font-style: italic;
+  }
+
+
+  .about-page{
+
+    position: relative;
+
+    top: 20rem;
+
+    height: 5rem;
+
+    padding: 2% 10%;
+    font-size: 1.3rem;
+  }
+
+  .about-page img{
+
+    float: left;
+    width: 40%;
+
+    position: relative;
+    bottom: 22rem
+  }
+
+  .about-page p{
+
+    color: black;
+    position: relative;
+    bottom: 21rem
+
+
+  }
+
+  
+  
+
+  .about-page h1{
+
+    position: relative;
+
+    bottom: 20rem;
+    font-size: 1.8rem;
+  }
+
+  .about-page Label, .progress{
+
+    position: relative;
+
+    bottom: 20rem;
+
+
+  }
+
+  .img1{
+
+      width: 1%;
+
+  }
+
+
+  .home-p{
+
+    position: absolute;
+
+    top: 150rem;
+
+  }
+  
+  
+
+
+    
+  
+}
+
+/* Desktop screen style */
+
+@media (min-width: 760px) {
+  .logo {
+    font-family: "Leckerli One", cursive;
+    color: rgba(218, 208, 208, 0.788) !important;
+
+    font-size: 9rem;
+  }
+
+  .Nav {
+    padding: 0% 10rem;
+
+    font-size: 1.3rem;
+
+    background: #1a508b;
+  }
+
+  .menu {
+    color: rgba(218, 208, 208, 0.788) !important;
+  }
+
+  .body {
+    background-image: url("./back_ground.jpg");
+    height: 50rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 120rem;
+  }
+
+  .me {
+    width: 30%;
+
+    background: rgba(12, 6, 6, 0.856);
+
+    margin-left: 12%;
+
+    position: relative;
+
+    top: 3rem;
+    height: 35rem;
+  }
+
+  .homeimg {
+    border-radius: 20rem;
+    width: 39%;
+    padding: 4%;
+    float: left;
+  }
+
+  .home-about {
+    color: white;
+    padding: 2%;
+  }
+
+  .social {
+    padding: 2% 14%;
+  }
+
+  .social img {
+    width: 15%;
+
+    padding: 1%;
+  }
+
+  .heading {
+    color: rgba(218, 208, 208, 0.788);
+
+    padding-top: 5%;
+
+    font-size: 2.7rem;
+    text-align: center;
+    font-weight: bolder;
+    line-height: normal;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+
+  .paragraph {
+    color: #1365bd;
+    text-align: center;
+    font-weight: bold;
+    font-size: 2rem;
+  }
+  .home-about {
+    font-size: 140%;
+  }
+
+  #projects div {
+    padding: 1% 5%;
+  }
+
+  .card {
+    background:rgba(255, 255, 255, 0.637) !important;
+  }
+
+  .btn {
+    background: #1a508b !important;
+  }
+
+  /* Footer style */
+
+  .footer{
+
+    height: 50rem;
 
 
     width: 100%;
 
 
-    background-color: black;
+    background-color: #1a508b;
 
+    padding: 3% 43%;
+  }
 
-}
 
 
+   .social-link{
 
+    position: relative;
 
-.ml-auto .menu{
-    color:#fff;
-}
+    display: inline;
 
+    left: 50rem;
 
+    color:rgba(255, 255, 255, 0.637) ;
 
 
-/* Mobile screen style */
-@media(min-width: 360px){
+  }
 
+  .copy{
+    color: rgba(255, 255, 255, 0.637) ;
 
-    .logo{
+    font-size: 100%;
 
+    padding: 12%;
 
-        font-family: 'Leckerli One', cursive;
-      color:rgba(218, 208, 208, 0.788) !important;
- 
-     }
+  }
+  
 
+  #contact .name, .email{
 
-    .Nav{    
-        font-size: 1.3rem;
-    
-        background:#1a508b;
-        background-position: 0%;
 
+    border: 2px soli #1a508b;
+    margin: 2% ;
 
+    background: rgba(255, 255, 255, 0.637) ;
 
+    width: 30rem;
+    height: 2.5rem;
 
+    box-shadow: 3px 5px 20px #041527;
 
-    }
+    border-radius: 4px;
 
-
-    .menu{
-        color:rgba(218, 208, 208, 0.788) !important;
-    }
-
-    .body{
-
-
-
-        background-image:url("./back_ground.jpg") ;
-        height: 30rem;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 125rem;
-
-
-
-
-    }
-
-
-    .me{
-
-
-        width: 90%;
-
-        background: rgba(12, 6, 6, 0.925);
-
-        margin: 0% 7% ;
-
-        position: relative;
-
-        top: 3rem;
-
-
-    }
-
-    .homeimg{
-
-        border-radius: 20rem ;
-        width: 45%;
-        padding: 4%;
-        float: left;
-
-    }
-
-    
-    .heading{
-
-        color: rgba(218, 208, 208, 0.788) ;
-
-        font-size: 30px;
-        text-align: center;
-        font-weight: bolder;
-    }
-
-
-    .paragraph{
-        color: #1365bd;
-        text-align: center;
-        font-weight: bold;
-        font-size: 120%;
-
-
-    }
-
-    .home-about{
-
-
-        color: white;
-        padding: 2%;
-        clear: both;
-
-    }
-    
-    .social{
-
-        padding: 2% 14%;
-
-    }
-
-    .social img{
-
-        width: 23%;
-
-
-        padding: 4%;
-
-       
-
-    }
-
+    color:black;
+    font: bolder;
     
 
-}
+  }
+
+  #contact .message{
+
+    background: rgba(255, 255, 255, 0.637) ;
+
+
+    width: 20rem;
+
+    margin: 2%;
+
+
+    box-shadow: 3px 5px 20px #041527;
+
+    border-radius: 4px;
+
+    color:black;
+    font: bolder;
+
+
+  }
+
+
+  #contact button{
+
+
+    background: #1365bd;
+
+    color: #fff;
+    border: 4px;
+    width: 30%;
+
+    box-shadow: 10px solid #fff;
 
 
 
-/* Desktop screen style */
-
-@media(min-width: 760px){
-
-    .logo{
+  }
 
 
-       font-family: 'Leckerli One', cursive;
-     color:rgba(218, 208, 208, 0.788) !important;
+  #contact h1{
 
-    font-size: 9rem;
+    color: rgba(255, 255, 255, 0.644);
+  }
 
-    }
+
+  .social-l img{
+
+    padding: 10% 5%;
+    width: 25%;
+
+  }
+
+  .about-body{
+
+
+    background-image: url("/about_picture.jpg");
+
+    background-position: center;
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 23rem;
+
+  }
+
+  .about-body h3{
+
+    text-align: right;
+
+
+    color: #fff;
+
+
+    font-size: 2rem;
+
+    padding: 3% 3%;
+
+    font-style: italic;
+  }
+
+
+  .me-about{
+
+
+    width: 30%;
+
+    padding: 21% 5%;
+
+    float: left;
+    clear: both;
+
+
+
+
+  }
+
+  .about-page{
+
+    position: relative;
+
+    top: 32rem;
+
+    height: 30rem;
+
+    padding: 2% 10%;
+    font-size: 1.3rem;
+  }
+
+  .about-page img{
+
+    float: left;
+    width: 50%;
+  }
+
+  .about-page p{
+
+    color: black;
+
+  }
+
+  .about-page ul{
+
+    list-style: none;
+
+
+  }
+
+  .progress{
+
+    color: red !important;
+
+
+  }
+
+  .img1{
+
+    float: right;
+
+    position: relative;
+    top: 55rem;
+
+    width: 50%;
+
+    padding: 0% 10%;
+
+  }
+
+  .home-p{
+
+    position: relative;
+    top: 25rem;
+    right:  45rem;
+    font-size: 2rem;
+
+
+
     
+  }
 
+  
 
-
-    .Nav{
-
-        padding: 0% 10rem;
-    
-        font-size: 1.3rem;
-    
-        background:#1a508b;
-    }
-
-
-    .menu{
-        color:rgba(218, 208, 208, 0.788) !important;
-    }
-    
-    
-
-
-    .body{
-
-        background-image:url("./back_ground.jpg") ;
-        height: 50rem;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: 120rem;
-
-
-
-
-    }
-
-    .me{
-
-
-        width: 30%;
-
-        background: rgba(12, 6, 6, 0.856);
-
-        margin-left: 12%;
-
-        position: relative;
-
-        top: 3rem;
-        height:35rem;
-
-
-    }
-
-    .homeimg{
-
-        border-radius: 20rem ;
-        width: 39%;
-        padding: 4%;
-        float: left;
-    }
-
-
-
-    .home-about{
-
-
-        color: white;
-        padding: 2%;
-    }
-    
-    .social{
-
-        padding: 2% 14%;
-
-    }
-
-    .social img{
-
-        width: 15%;
-
-
-        padding: 1%;
-
-       
-
-    }
-
-    .heading{
-
-        color: rgba(218, 208, 208, 0.788) ;
-
-        padding-top: 5%;
-
-        font-size: 2rem;
-        text-align: center;
-        font-weight: bolder;
-        line-height: normal;
-    }
-
-
-    .paragraph{
-        color: #1365bd;
-        text-align: center;
-        font-weight: bold;
-        font-size: 1.9rem;
-
-
-    }
-
-   
-
-    
 }

@@ -7,15 +7,15 @@ function nav(){
 
 
 <Navbar  expand="lg">
-  <Navbar.Brand  className="logo" href="#home">GabrielgoG</Navbar.Brand>
+  <Navbar.Brand  className="logo" href="/">GabrielgoG</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
-      <Nav.Link className="menu"  href="#link">Projects</Nav.Link>
-      <Nav.Link className="menu"  href="#link">Blog</Nav.Link>
+      <Nav.Link className="menu"  href="#projects">Projects</Nav.Link>
+      <Nav.Link className="menu"  href="https://blog.gabrielgog.dev">Blog</Nav.Link>
 
-      <Nav.Link className="menu"  href="#link">About</Nav.Link>
-      <Nav.Link className="menu"  href="#link">Contact</Nav.Link>
+      <Nav.Link className="menu"  href="/about">About</Nav.Link>
+      <Nav.Link className="menu"  href="#contact">Contact</Nav.Link>
 
       
     </Nav>

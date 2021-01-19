@@ -1,19 +1,43 @@
-import React from "react-bootstrap";
+import React from "react";
+import {Switch, Route} from "react-router-dom"
 
-import "bootstrap/dist/css/bootstrap.min.css";
 
-import Nav from "./nav";
+import Home from "./home"
 
-import Body from "./body_sec";
+import About from "./about"
 
-function app() {
-  return (
-    <div>
-      <Nav />
+function home(){
 
-      <Body />
-    </div>
-  );
+
+return (
+
+
+
+
+     <Switch> 
+    <Route path="/" component={Home} exact/>
+
+<Route path="/about" component={About} />
+
+
+
+</Switch> 
+
+
+
+
+
+
+
+
+
+ 
+)
+
+
 }
 
-export default app;
+
+ 
+
+export default home;
