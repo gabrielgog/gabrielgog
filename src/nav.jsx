@@ -12,7 +12,7 @@ function nav(){
   <Navbar.Collapse id="basic-navbar-nav">
     <Nav className="ml-auto">
       <Nav.Link className="menu"  href="#projects">Projects</Nav.Link>
-      <Nav.Link className="menu"  href="https://blog.gabrielgog.dev">Blog</Nav.Link>
+      <Nav.Link className="menu"  href="https://blog.gabrielgog.dev" target="_blank">Blog</Nav.Link>
 
       <Nav.Link className="menu"  href="/about">About</Nav.Link>
       <Nav.Link className="menu"  href="#contact">Contact</Nav.Link>

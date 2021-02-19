@@ -8,7 +8,9 @@ function repair(){
         <div>
 
 <img src="home.jpeg" className="img1" alt=""/>
-        <p className="home-p" id="r">   I play with my pc anytime it develops fault. Sometimes I know what i'm doing. Other times, I do not. But it works. Let's play with your PC too :)</p>
+        <p className="home-p" id="r">   What do you call  someone who fixes computer? I'm that person, will I fix your computer?  
+        
+        </p>
   
         </div>
 

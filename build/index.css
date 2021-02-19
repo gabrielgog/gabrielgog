@@ -1,5 +1,7 @@
 body {
 
+  box-sizing: border-box;
+
   font-family: "Dosis", sans-serif;
 
   width: 100%;
@@ -9,10 +11,6 @@ body {
 
 .Nav {
   font-family: "Dosis", sans-serif;
-}
-
-Nav:hover {
-  background: #041527;
 }
 
 h1 {
@@ -36,7 +34,6 @@ p {
 
 #projects {
   background: #041527;
-  height: 105rem;
 }
 
 #projects h1{
@@ -45,7 +42,7 @@ p {
   color: rgba(218, 208, 208, 0.788) ;
 }
 
-/
+
 .ml-auto .menu {
   color: #fff;
 }
@@ -72,7 +69,7 @@ p {
   }
 
   .me {
-    width: 96%;
+    width: auto;
 
     background: rgba(12, 6, 6, 0.925);
 
@@ -135,9 +132,13 @@ p {
     background: #1365bd !important;
   }
 
-  .variant {
-    padding: 0% 5%;
+  .tools-i-use{
+    background: #041527;
+    color: #fff;
+font-size: medium;
   }
+
+  
 
   /* Footer styles */
 
@@ -145,24 +146,14 @@ p {
   .footer{
 
 
+position: absolute;
 
 
     background-color: #1a508b;
+width: 100%;
 
-
-    position: absolute;
-    top: 137rem;
-
-
-    height: 48rem;
-
-    width: 100%;
-
+  
   }
-.social-link{
-
-  display: none;
-}
 
 
   
@@ -170,9 +161,6 @@ p {
     color: rgba(255, 255, 255, 0.637) ;
 
     font-size: 100%;
-
-    padding: 12%;
-
     text-align: center;
 
   }
@@ -182,12 +170,11 @@ p {
 
 
     border: 2px solid #1a508b;
-    margin: 3% ;
+    margin: 5% ;
 
     background: rgba(255, 255, 255, 0.637) ;
 
     width: 20rem;
-    height: 2.5rem;
 
     box-shadow: 3px 5px 20px #041527;
 
@@ -206,7 +193,7 @@ p {
 
     width: 20rem;
 
-    margin: 3% ;
+    margin: 5% ;
 
 
     box-shadow: 3px 5px 20px #041527;
@@ -259,12 +246,12 @@ p {
   .about-body{
 
 
-    background-image: url("/about_picture.jpg");
+    background-image: url("/background.png");
 
     background-position: top;
     background-size:100%;
     background-repeat: no-repeat;
-    height: 10rem;
+    height: 13rem;
 
   }
 
@@ -287,31 +274,25 @@ p {
 
   .about-page{
 
-    position: relative;
 
     top: 20rem;
 
-    height: 5rem;
 
-    padding: 2% 10%;
+    padding: 1%;
     font-size: 1.3rem;
   }
 
   .about-page img{
 
     float: left;
-    width: 40%;
+    width: 50%;
 
-    position: relative;
-    bottom: 22rem
   }
 
   .about-page p{
+    padding-left: 3%;
 
-    color: black;
-    position: relative;
-    bottom: 21rem
-
+    
 
   }
 
@@ -320,10 +301,9 @@ p {
 
   .about-page h1{
 
-    position: relative;
 
-    bottom: 20rem;
     font-size: 1.8rem;
+    text-align: center;
   }
 
   .about-page Label, .progress{
@@ -460,26 +440,22 @@ p {
 
   .footer{
 
-    height: 50rem;
 
 
-    width: 100%;
-
+width: 100%;
 
     background-color: #1a508b;
+padding: 3% 35%;
 
-    padding: 3% 43%;
+
   }
 
 
 
    .social-link{
 
-    position: relative;
 
-    display: inline;
 
-    left: 50rem;
 
     color:rgba(255, 255, 255, 0.637) ;
 
@@ -497,15 +473,12 @@ p {
   
 
   #contact .name, .email{
+    width: 30rem;
 
 
     border: 2px soli #1a508b;
-    margin: 2% ;
-
     background: rgba(255, 255, 255, 0.637) ;
 
-    width: 30rem;
-    height: 2.5rem;
 
     box-shadow: 3px 5px 20px #041527;
 
@@ -522,9 +495,9 @@ p {
     background: rgba(255, 255, 255, 0.637) ;
 
 
-    width: 20rem;
+    width: 30rem;
 
-    margin: 2%;
+    
 
 
     box-shadow: 3px 5px 20px #041527;
@@ -557,6 +530,7 @@ p {
   #contact h1{
 
     color: rgba(255, 255, 255, 0.644);
+
   }
 
 
@@ -570,26 +544,24 @@ p {
   .about-body{
 
 
-    background-image: url("/about_picture.jpg");
+    background-image: url("/background.png");
 
     background-position: center;
     background-size:100%;
     background-repeat: no-repeat;
-    height: 23rem;
+    height: 13rem;
 
   }
 
   .about-body h3{
 
-    text-align: right;
-
+padding-right: 20rem;
 
     color: #fff;
 
 
     font-size: 2rem;
 
-    padding: 3% 3%;
 
     font-style: italic;
   }
@@ -600,7 +572,7 @@ p {
 
     width: 30%;
 
-    padding: 21% 5%;
+    padding: 21%;
 
     float: left;
     clear: both;
@@ -612,25 +584,30 @@ p {
 
   .about-page{
 
-    position: relative;
-
-    top: 32rem;
-
-    height: 30rem;
-
-    padding: 2% 10%;
+    
+  
+    padding: 3% ;
     font-size: 1.3rem;
   }
 
   .about-page img{
 
     float: left;
-    width: 50%;
+    width: 20%;
+    padding-left: 4rem;
+    opacity: #ff1e1e;
+
+    
   }
 
   .about-page p{
 
     color: black;
+    font-weight:  bold;
+    line-height: 2.5rem;
+    margin:  0 6%;
+    position: relative;
+    left: 1rem;
 
   }
 
@@ -641,19 +618,12 @@ p {
 
   }
 
-  .progress{
-
-    color: red !important;
-
-
-  }
-
+  
   .img1{
 
     float: right;
 
-    position: relative;
-    top: 55rem;
+    
 
     width: 50%;
 
@@ -663,9 +633,7 @@ p {
 
   .home-p{
 
-    position: relative;
-    top: 25rem;
-    right:  45rem;
+  
     font-size: 2rem;
 
 
@@ -673,6 +641,12 @@ p {
     
   }
 
-  
+  .social-l img{
+    width: 18%;
+  }
 
+  .tools-i-use{
+
+    height: 6rem;
+  }
 }

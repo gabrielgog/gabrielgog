@@ -20,10 +20,10 @@ function body(){
 
  <div className="social">
 
- <a href="https://www.linkedin.com/in/gabrielgog/"><img src="/linkedin.png"/></a>
-<a href="https://gabrielgog.medium.com/"><img src="/medium.png"/></a>
-<a href="https://twitter.com/gabrielg0g"><img src="/twitter.png"/></a>
-<a href="https://github.com/gabrielgog"><img src="/github.png"/></a>
+ <a href="https://www.linkedin.com/in/gabrielgog/" target="_blanket"><img src="/linkedin.png"/></a>
+<a href="https://gabrielgog.medium.com/" target="_blanket"><img src="/medium.png"/></a>
+<a href="https://twitter.com/gabrielg0g" target="_blank"><img src="/twitter.png"/></a>
+<a href="https://github.com/gabrielgog" target="_blanket"><img src="/github.png"/></a>
 
 
 

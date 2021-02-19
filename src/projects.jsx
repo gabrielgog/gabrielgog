@@ -87,7 +87,7 @@ function project(){
 <Card.Body>
 <Card.Title>FArm365</Card.Title>
 <Card.Text>
-  Built on React after several iterations of farm produce system. Worked on front page and sent other parts of the website to new development team
+ Farm365 provides a platform to interact with a bot to get vegetables from farm land
 </Card.Text>
  <a href="https://farm365.farm/"><Button variant="primary">View</Button></a>
 </Card.Body>

@@ -4,6 +4,8 @@ import Nav from "./nav"
 
 import AboutBody from "./about_body"
 
+import AboutMe from "./about_desc"
+
 import Footer from "./footer"
 
 
@@ -22,9 +24,12 @@ function about(){
 
 <AboutBody />
 
+<AboutMe />
+
+<Footer />
+
             
 
-            <Footer />
 
 
 
