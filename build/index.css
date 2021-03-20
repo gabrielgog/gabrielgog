@@ -1,3 +1,4 @@
+
 body {
 
   box-sizing: border-box;
@@ -5,13 +6,22 @@ body {
   font-family: "Dosis", sans-serif;
 
   width: 100%;
-
+  
+ 
 
 }
 
 .Nav {
   font-family: "Dosis", sans-serif;
+      background: #1C3D40;
+
 }
+
+
+  .footer{
+    background-color: #306E73;
+  }
+
 
 h1 {
   font-family: "Roboto Condensed", sans-serif;
@@ -32,15 +42,7 @@ p {
   color: rgba(218, 208, 208, 0.788) !important;
 }
 
-#projects {
-  background: #041527;
-}
 
-#projects h1{
-
-  text-align: center;
-  color: rgba(218, 208, 208, 0.788) ;
-}
 
 
 .ml-auto .menu {
@@ -49,13 +51,7 @@ p {
 
 /* Mobile screen style */
 @media (min-width: 360px) {
-  .Nav {
-    font-size: 1.3rem;
-
-    background: #1a508b;
-    background-position: 0%;
-  }
-
+ 
   .menu {
     color: rgba(218, 208, 208, 0.788) !important;
   }
@@ -69,15 +65,10 @@ p {
   }
 
   .me {
-    width: auto;
-
     background: rgba(12, 6, 6, 0.925);
+    margin: 3% 2%;
+   
 
-    margin: 0% 2%;
-
-    position: relative;
-
-    top: 3rem;
   }
 
   .homeimg {
@@ -97,17 +88,15 @@ p {
   }
 
   .paragraph {
-    color: #1365bd;
+    color: #8ABBBF;
     text-align: center;
-    font-weight: bold;
-    font-size: 140%;
-    padding: 0% 0%;
+    font-size: 130%;
+    font-weight: bolder;
   }
 
   .home-about {
     color: white;
-    padding: 2%;
-    clear: both;
+    position: relative;
   }
 
   .social {
@@ -146,10 +135,9 @@ font-size: medium;
   .footer{
 
 
-position: absolute;
+position: relative;
+top: 7rem;
 
-
-    background-color: #1a508b;
 width: 100%;
 
   
@@ -210,7 +198,7 @@ width: 100%;
   #contact button{
 
 
-    background: #1365bd;
+    background: #1C3D40;
 
     color: #fff;
     border-radius: 2px;
@@ -259,7 +247,8 @@ width: 100%;
   .about-body h3{
 
     text-align: right;
-
+    transform: rotate(80deg);
+    margin-left: 30%;
 
     color: #fff;
 
@@ -347,14 +336,7 @@ width: 100%;
     font-size: 9rem;
   }
 
-  .Nav {
-    padding: 0% 10rem;
-
-    font-size: 1.3rem;
-
-    background: #1a508b;
-  }
-
+  
   .menu {
     color: rgba(218, 208, 208, 0.788) !important;
   }
@@ -368,16 +350,18 @@ width: 100%;
   }
 
   .me {
-    width: 30%;
+    width: 38%;
 
     background: rgba(12, 6, 6, 0.856);
 
-    margin-left: 12%;
-
+    margin-left: 15%;
     position: relative;
+    top: 2rem;
 
-    top: 3rem;
-    height: 35rem;
+    margin-top: 0%;
+
+    
+    
   }
 
   .homeimg {
@@ -394,6 +378,13 @@ width: 100%;
 
   .social {
     padding: 2% 14%;
+  }
+
+   .Nav {
+    font-size: 1.3rem;
+
+    background-position: 0%;
+    padding: 0% 18%;
   }
 
   .social img {
@@ -415,13 +406,15 @@ width: 100%;
   }
 
   .paragraph {
-    color: #1365bd;
+    color: #8ABBBF;
     text-align: center;
     font-weight: bold;
     font-size: 2rem;
   }
   .home-about {
-    font-size: 140%;
+    font-size: 130%;
+        line-height: 2.2rem;
+
   }
 
   #projects div {
@@ -440,11 +433,12 @@ width: 100%;
 
   .footer{
 
+    position: inherit;
+
 
 
 width: 100%;
 
-    background-color: #1a508b;
 padding: 3% 35%;
 
 
@@ -476,7 +470,7 @@ padding: 3% 35%;
     width: 30rem;
 
 
-    border: 2px soli #1a508b;
+    border: 2px soli #5884b3;
     background: rgba(255, 255, 255, 0.637) ;
 
 
@@ -514,7 +508,7 @@ padding: 3% 35%;
   #contact button{
 
 
-    background: #1365bd;
+    background: #8ABBBF;
 
     color: #fff;
     border: 4px;
@@ -643,10 +637,8 @@ padding-right: 20rem;
 
   .social-l img{
     width: 18%;
+    padding: 5%;
   }
 
-  .tools-i-use{
-
-    height: 6rem;
-  }
+  
 }

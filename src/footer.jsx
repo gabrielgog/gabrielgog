@@ -7,12 +7,12 @@ function footer() {
     <div className="footer" id="contact">
       
 
-      <h1>Contact Me</h1>
+      <h1>Get in touch!</h1>
 
-      <form  action="https://getsimpleform.com/messages?form_api_token=a0938af2f3f9e284c261f97ca01974c0" method="post">
+      <form  action="https://getsimpleform.com/messages?form_api_token=2a4e61d8aa2fb0a9afe005fa6c6c784a" method="post">
 
-        <input className="name" type="text" placeholder="Name" color="white"required /> <br />
-        <input className="email" type="email" placeholder="Email address" required />
+        <input name="content"  className="name" type="text" placeholder="Name" color="white"required /> <br />
+        <input name="content" className="email" type="email" placeholder="Email address" required />
         <br />
         <textarea className="message"
           placeholder="Enter your message"
@@ -22,16 +22,15 @@ function footer() {
           rows="10"
         ></textarea>{" "}
         <br />
-        <button className="submit" type="submit">Send</button>
+        <button className="" type="submit">Send</button>
       </form>
 
-      <a className="social-l" href="https://www.linkedin.com/in/gabrielgog/" target="_blank"><img src="/linkedin.png"/></a>
-<a className="social-l" href="https://gabrielgog.medium.com/" target="_blank"><img src="/medium.png"/></a>
-<a className="social-l" href="https://twitter.com/gabrielg0g" target="_blank"><img src="/twitter.png"/></a>
-<a className="social-l" href="https://github.com/gabrielgog" target="_blank"><img src="/github.png"/></a>
+      <a className="social-l" href="https://www.linkedin.com/in/fr-michael-jatau-9b03591b4/?originalSubdomain=de" target="_blank"><img src="/linkedin.png"/></a>
+<a className="social-l" href="https://web.facebook.com/frjatau" target="_blank"><img src="/facebook.png"/></a>
+<a className="social-l" href="https://twitter.com/frjataum" target="_blank"><img src="/twitter.png"/></a>
 
 
-      <p className="copy">&copy; GabrielgoG {date}</p>
+      <p className="copy">&copy; FrJatau {date}</p>
 
 
 

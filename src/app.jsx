@@ -4,7 +4,7 @@ import {Switch, Route} from "react-router-dom"
 
 import Home from "./home"
 
-import About from "./about"
+// import About from "./about"
 
 function home(){
 
@@ -17,7 +17,7 @@ return (
      <Switch> 
     <Route path="/" component={Home} exact/>
 
-<Route path="/about" component={About} />
+{/* <Route path="/about" component={About} /> */}
 
 
 
