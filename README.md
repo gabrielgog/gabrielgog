@@ -1,6 +1,7 @@
 ## Hi there 👋 
-I'm Gabriel, a product minded software engineer that blends data and design with engineering. I have a passion for Design Systems, Data Science and Serverless Technologies such as Amazon Web services and the Google Cloud plattform. Apart from writing code I enjoy technical writting and currently practicing opensource contribution.
+I'm Gabriel, a product-minded software engineer that blends data & design with engineering. I specialize in Javascript and work primarily with React and Firebase, but I have experience working in a wide range of technologies including Node and Express, MongoDB, PostgreSQL, Flutter, REST API design, third party APIs and AWS.
 
+Additionally, I am technical writer interested in UX design and open source contributions.
 <!--
 **gabrielgog/gabrielgog** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
