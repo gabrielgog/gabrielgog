@@ -1,5 +1,5 @@
  Hi there 👋 
-I'm Gabe, a product-minded software engineer that blends data & design with engineering. I am currently developing my craft and partnering wå÷ith like-minded individuals with the aim of building a successful startup
+I'm Gabe, a product-minded software engineer that blends data & design with engineering. I am currently developing my craft and partnering with like-minded individuals with the aim of building a successful startup
 
 I am intrested in technical writing and opensource contribution
 
