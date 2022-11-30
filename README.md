@@ -1,8 +1,12 @@
 ## Hey There 😎
 I'm Gabriel Godwin. 
 
-I am a front-end engineer that blends data and design with Engineering. I use a Component-Driven Development (CDD) methodology to build UIs. The CDD approach is a process that builds UIs from the “bottom-up”, starting with components and ending with screens. CDD helps us scale the amount of complexity we are faced with as we build out the UI. Among other things I enjoy building design systems and currently mentoring new frontend engineers on frontendmentor.io
+I am a software engineer that blends data and design with Engineering. I am involved in all stages and all areas of software development as well as architecture design, performance evaluation, code review, and internal tool management. I am currently partnering with like-minded individuals to build a sustainable startup. In my spare time, I engage in community-building/activities. 
 
-You can reach me via email: gabrielgog@gmail.com or twitter: @gabrielgog
+Feel free to reach out to me via email if you have the next idea about what would change the world or simply want us to go over something you worked on or maybe you just want us to ideate: o.gabrielgodwin@gmail.com
+
+
+
+
 
 
